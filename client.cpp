@@ -41,7 +41,7 @@ int main(int argc, char *argv[]) {
     }
     std::cout << "Connected to server!" << std::endl;
 
-    std::string client_msg = "<Your Name>: <UFID>"; 
+    std::string client_msg = "<Ian Hoang>: <48658752>"; 
     
     int n = write(sock_fd, client_msg.c_str(), client_msg.length());
     if (n < 0) {
